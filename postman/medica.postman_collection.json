@@ -1,0 +1,138 @@
+{
+	"info": {
+		"_postman_id": "0b8300fd-f543-479c-8711-1d5d565dbde3",
+		"name": "medica",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34390628"
+	},
+	"item": [
+		{
+			"name": "Upload",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/Users/muhammed/mmr/projects/gerimedica-app/exercise.csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8080/gerimedica/temperature/upload",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"gerimedica",
+						"temperature",
+						"upload"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Data",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/Users/muhammed/mmr/projects/gerimedica-app/exercise.csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8080/gerimedica/temperature",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"gerimedica",
+						"temperature"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get By Code",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/Users/muhammed/mmr/projects/gerimedica-app/exercise.csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8080/gerimedica/temperature/ZIB",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"gerimedica",
+						"temperature",
+						"ZIB"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete all",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/Users/muhammed/mmr/projects/gerimedica-app/exercise.csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8080/gerimedica/temperature/ZIB",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"gerimedica",
+						"temperature",
+						"ZIB"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

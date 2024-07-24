@@ -1,0 +1,19 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /gerimedica
+spring:
+  application:
+  name: gerimedica-app
+
+
+# Logging
+logging:
+  level:
+    root: INFO
+    org:
+      apache:
+        tomcat: error
+        catalina: error
+      springframework: ERROR
+      hibernate: ERROR
